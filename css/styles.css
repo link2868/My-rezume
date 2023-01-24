@@ -1,0 +1,186 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 40px;
+  background-color: #e5e5e5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+span.company {
+  color: #6d9bf5;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+h1 {
+  top: 178px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+}
+
+p {
+  top: 252px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+p.date {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+
+p.study {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6d9bf5;
+}
+p.profession {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  background: #f6f6fa;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-content {
+  margin-top: 102px;
+  padding-left: 68px;
+  padding-right: 257px;
+  margin-bottom: 140px;
+  width: 80%;
+ }
+
+.about-me {
+  margin-bottom: 64px;
+}
+
+li.projects {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+a.projects {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #005fff;
+  text-decoration: none;
+}
+
+span.projects-txt {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.work-experience {
+  margin-top: 50px;
+}
+
+li.companys {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+div.company2 {
+  margin-top: 40px;
+}
+
+div.company3 {
+  margin-top: 40px;
+}
+
+div.education {
+  margin-top: 60px;
+}
+
+aside {
+  background: #e0ebfe;
+  margin: 40px;
+}
+
+img.my-foto {
+  margin: 40px 20px 20px 20px;
+}
+
+.contacts,
+.Tech-Skills,
+.Soft-Skills {
+  margin: 40px 0px 0px 40px;
+}
+
+.contact-CE {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+}
+
+.tel {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+}
+
+.email {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2979ff;
+}
+
+li.skills {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6d9bf5;
+}
+
+.point {
+  color: #161d2a;
+}

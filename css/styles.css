@@ -179,7 +179,8 @@ li.skills {
 }
 
 .point {
-  color: #161d2a;
+  color: #0d6126;
+  font-size: 14px;
   transition: all .20s ease-in 0s;
 }
 

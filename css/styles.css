@@ -179,8 +179,7 @@ li.skills {
 }
 
 .point {
-  color: #0d6126;
-  font-size: 14px;
+  color: #161d2a;
   transition: all .20s ease-in 0s;
 }
 
@@ -188,6 +187,8 @@ li.skills {
   font-weight: 800;
   color:#6d9bf5;
   letter-spacing: 2px;
+  text-decoration: underline;
+  text-decoration-color: #005fff;
   cursor: pointer;
 }
 

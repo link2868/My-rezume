@@ -1,6 +1,5 @@
 body {
   font-family: "Montserrat", sans-serif;
-  
   background-color: #e5e5e5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   max-width: 1800px;
@@ -61,18 +60,35 @@ h1 {
   background-color:lightgray;
   border: 2px solid #eeecec;
   box-shadow: 0px 0px 2px 2px rgb(138, 137, 137);
-
-  
 }
+
 #elem:hover {
   border: 2px solid #ffffff;
   background-color:#e5e5e5;
   cursor: pointer;
   box-shadow: 0px 0px 2px 2px rgb(177, 176, 176);
 }
+
 .img-button {
   width: 100%;
   display: flex;
+}
+
+.midl {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color:lightgray;
+  border: 2px solid #eeecec;
+  box-shadow: 0px 0px 2px 2px rgb(138, 137, 137);
+  cursor: pointer;
+}
+
+.midl:hover {
+  border: 2px solid #ffffff;
+  background-color:#e5e5e5;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px 2px rgb(177, 176, 176);
 }
 
 .button-null {
@@ -83,7 +99,6 @@ h1 {
   background-color:lightgray;
   border: 2px solid #eeecec;
   box-shadow: 0px 0px 2px 2px rgb(138, 137, 137);
- 
 }
 
 p {
@@ -107,12 +122,14 @@ p.study {
   line-height: 20px;
   color: #6d9bf5;
 }
+
 p.profession {
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
   color: #000000;
 }
+
 .wrapper {
   display: flex;
   flex-direction: row-reverse;
@@ -238,16 +255,16 @@ li.skills {
 
 .point:after {
   background-color: #6d9bf5;
-      display: block;
-      content: "";
-      height: 3px;
-      width: 0%;
-      transition: width .3s ease-in-out;
+  display: block;
+  content: "";
+  height: 3px;
+  width: 0%;
+  transition: width .3s ease-in-out;
 }
 
 .point:hover::after,
 .point:focus::after {
-width: 100%;
+  width: 100%;
 }
 
 @media (max-width: 1100px) {

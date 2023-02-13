@@ -46,14 +46,18 @@ h1 {
   align-items: baseline;
 }
 
-.name-button {
+.name-button, .name-button-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.name-button-bottom {
+  padding-right: 50%;
+}
+
 #elem {
-  margin: 0 4px 0 8px;
+  margin: 0 4px 0 4px;
   width: 34px;
   height: 34px;
   border-radius: 50%;
@@ -74,7 +78,8 @@ h1 {
   display: flex;
 }
 
-.midl {
+.midl, .randomColor {
+  margin: 0 4px 0 4px;
   width: 34px;
   height: 34px;
   border-radius: 50%;
@@ -91,11 +96,35 @@ h1 {
   box-shadow: 0px 0px 2px 2px rgb(177, 176, 176);
 }
 
+.randomColor:hover {
+  border: 2px solid #ffffff;
+  background-color:#e5e5e5;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px 2px rgb(177, 176, 176);
+}
+
 .button-null {
-  margin: 0 8px 0 4px;
+  margin: 0 4px 0 4px;
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  background-color:lightgray;
+  border: 2px solid #eeecec;
+  box-shadow: 0px 0px 2px 2px rgb(138, 137, 137);
+}
+.width, .rotate, .dable-click {
+  margin: 0 4px 0 4px;
+  width: 60px;
+  height: 25px;
+  background-color:lightgray;
+  border: 2px solid #eeecec;
+  box-shadow: 0px 0px 2px 2px rgb(138, 137, 137);
+  cursor: pointer;
+}
+.result {
+  margin: 0 4px 0 4px;
+  width: 80px;
+  height: 21px;
   background-color:lightgray;
   border: 2px solid #eeecec;
   box-shadow: 0px 0px 2px 2px rgb(138, 137, 137);

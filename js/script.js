@@ -1,10 +1,28 @@
 elem.onclick = function() {
     alert ('Привіт учителю!');
-};
-
-let i=1;
-function changeColor(){
-    i++;
-    if (i==2) { document.getElementsByClassName('button-null')[0].style.backgroundColor = '#6d9bf5';};
-    if (i==3) { document.getElementsByClassName('button-null')[0].style.backgroundColor = 'lightgray'; i=1};
+};    
+      
+function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var backgroundColor = '#';
+    for (var i = 0; i < 6; i++) {
+        backgroundColor += letters[Math.floor(Math.random() * 16)];
+    }
+    return backgroundColor;
 }
+
+function changeRandomColor(){
+    const style = document.getElementsByClassName('button-null')[0].style;
+    const randomColor = getRandomColor();
+  
+    style.backgroundColor = randomColor;
+}
+
+function changeColor(){
+    const style = document.getElementsByClassName('button-null')[0].style;
+    
+   if (style.backgroundColor === "green") style.backgroundColor = "lightgray"
+    else  style.backgroundColor = "green";
+}
+
+

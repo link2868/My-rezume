@@ -46,14 +46,17 @@ h1 {
   align-items: baseline;
 }
 
-.name-button, .name-button-bottom {
+.name-button{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .name-button-bottom {
-  padding-right: 50%;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  
 }
 
 #elem {
@@ -112,7 +115,8 @@ h1 {
   border: 2px solid #eeecec;
   box-shadow: 0px 0px 2px 2px rgb(138, 137, 137);
 }
-.width, .rotate, .dable-click {
+
+.width, .rotate, .dell-click {
   margin: 0 4px 0 4px;
   width: 60px;
   height: 25px;
@@ -121,6 +125,28 @@ h1 {
   box-shadow: 0px 0px 2px 2px rgb(138, 137, 137);
   cursor: pointer;
 }
+
+.width:hover {
+  border: 2px solid #ffffff;
+  background-color:#e5e5e5;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px 2px rgb(177, 176, 176);
+}
+
+.rotate:hover {
+  border: 2px solid #ffffff;
+  background-color:#e5e5e5;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px 2px rgb(177, 176, 176);
+}
+
+.dell-click:hover {
+  border: 2px solid #ffffff;
+  background-color:#e5e5e5;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px 2px rgb(177, 176, 176);
+}
+
 .result {
   margin: 0 4px 0 4px;
   width: 80px;
@@ -128,6 +154,8 @@ h1 {
   background-color:lightgray;
   border: 2px solid #eeecec;
   box-shadow: 0px 0px 2px 2px rgb(138, 137, 137);
+  text-align: center;
+  vertical-align: middle;
 }
 
 p {
